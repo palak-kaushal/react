@@ -10,7 +10,10 @@ import Nav from './Nav'
 // import Toast from './Toast'
 // // import Spinner from './Spinner'
 // import Home from'./Home'
-import Getdata from'./Getdata'
+// // import Getdata from'./Getdata'
+// import Createuserwithemil from'./Creatuserwithemail'
+// import Userlogin from'./Userlogin'
+import Firestore from'./Firestore'
 function App() {
 //  const name={
 //   name:"ram",
@@ -23,8 +26,12 @@ function App() {
    {/* <Toast/> */}
    {/* <Spinner/> */}
   {/* <Home/> */}
-  <Getdata/>
+  {/* <Getdata/> */}
+  {/* <Createuserwithemil/> */}
+  {/* <Userlogin/> */}
+  <Firestore/>
    </>
+
       
 // {/* <BrowserRouter>
 // <Nav/>
