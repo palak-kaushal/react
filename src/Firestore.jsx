@@ -41,6 +41,8 @@ const Firestore = () => {
          <label htmlFor="password">Password</label>
         <input id="password"name="password"type="password"placeholder="Enter your password"value={form.password}onChange={handleChange} /><br />
         <button type="submit">Save</button>
+        <button type='button'onClick={handleChange}>get data</button>
+        <button type='button'onClick={handleChange}>get  filtered data</button>
       </form>
     </div>
   );
