@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 const Firestore = () => {
   const [form, setForm] = useState({
-    id: '',
     name: '',
     email: '',
     password: '',
@@ -24,25 +23,16 @@ const Firestore = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="id">ID</label>
-        <input
-          id="id"
-          name="id"
-          type="number"
-          placeholder="Enter your ID"
-          value={form.id}
-          onChange={handleChange}
-        /><br />
-
         <label htmlFor="name">Name</label>
-        <input id="name"name="name"type="text"placeholder="Enter your name" value={form.name} onChange={handleChange}/><br />
+        <input id="name"name="name"type="text"placeholder="Enter your name" value={form.name} onChange={handleChange}/><br></br><br></br>
         <label htmlFor="email">Email</label>
-        <input id="email" name="email" type="email"placeholder="Enter your email"value={form.email}onChange={handleChange}/><br />
+        <input id="email" name="email" type="email"placeholder="Enter your email"value={form.email}onChange={handleChange}/><br></br><br></br>
          <label htmlFor="password">Password</label>
-        <input id="password"name="password"type="password"placeholder="Enter your password"value={form.password}onChange={handleChange} /><br />
+        <input id="password"name="password"type="password"placeholder="Enter your password"value={form.password}onChange={handleChange} /><br></br><br></br>
+        <label htmlFor Upload> Image</label>
+        <input  id="image" name = "image" type="file" placeholder="image" value ={form.image} onChange={handleChange}/><br></br><br></br>
         <button type="submit">Save</button>
-        <button type='button'onClick={handleChange}>get data</button>
-        <button type='button'onClick={handleChange}>get  filtered data</button>
+        
       </form>
     </div>
   );

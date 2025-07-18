@@ -13,7 +13,10 @@ import Nav from './Nav'
 // // import Getdata from'./Getdata'
 // import Createuserwithemil from'./Creatuserwithemail'
 // import Userlogin from'./Userlogin'
-import Firestore from'./Firestore'
+// import Firestore from'./Firestore'
+// import Cloudnary from './Cloudnary'
+import Useeffect from'./Useeffect'
+// import chlid1 from './Chlid1'
 function App() {
 //  const name={
 //   name:"ram",
@@ -29,7 +32,10 @@ function App() {
   {/* <Getdata/> */}
   {/* <Createuserwithemil/> */}
   {/* <Userlogin/> */}
-  <Firestore/>
+  {/* <Firestore/> */}
+  {/* <Cloudnary/> */}
+  <Useeffect/>
+  {/* <chlid1/> */}
    </>
 
       
