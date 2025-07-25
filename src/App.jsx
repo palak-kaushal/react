@@ -21,7 +21,8 @@
 // import Chlid1 from'./Chlid1'
 // import Usememo from'./Usememo'
 // import Usecallback from'./Usecallback'
-import List from'./List'
+// import List from'./List'
+import Object from'./Object'
 
 
 function App() {
@@ -48,7 +49,8 @@ function App() {
   {/* <Counter/> */}
   {/* <Usememo/> */}
   {/* <Usecallback/> */}
-  <List/>
+  {/* <List/> */}
+  <Object/>
   
 
    </>
