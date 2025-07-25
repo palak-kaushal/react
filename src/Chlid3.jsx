@@ -1,9 +1,12 @@
 import React from 'react'
 
-function Chlid3() {
+
+const Child3 = ({message}) => {
   return (
-    <div>Chlid3</div>
+    <div>
+     <h3>Child3 received : {message}</h3>
+    </div>
   )
 }
 
-export default Chlid3
+export default Child3

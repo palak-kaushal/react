@@ -2,11 +2,11 @@
 // import Child  from "./Child"
 // import Counter from "./Counter"
 // import Controlled from "./cONTROLLED.JSX"
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import About from "./About"
-import Services from './Services'
-import Contacts from './Contacts'
-import Nav from './Nav'
+// import {BrowserRouter,Routes,Route} from 'react-router-dom'
+// import About from "./About"
+// import Services from './Services'
+// import Contacts from './Contacts'
+// import Nav from './Nav'
 // import Toast from './Toast'
 // // import Spinner from './Spinner'
 // import Home from'./Home'
@@ -15,14 +15,20 @@ import Nav from './Nav'
 // import Userlogin from'./Userlogin'
 // import Firestore from'./Firestore'
 // import Cloudnary from './Cloudnary'
-import Useeffect from'./Useeffect'
+// import Useeffect from'./Useeffect'
 // import chlid1 from './Chlid1'
+// import Usecontext from'./Usecontext'
+// import Chlid1 from'./Chlid1'
+// import Usememo from'./Usememo'
+import Usecallback from'./Usecallback'
+
+
 function App() {
-//  const name={
-//   name:"ram",
-//   age:20,
-//   gender:"female"
-//  }
+ const name={
+  name:"ram",
+  age:20,
+  gender:"female"
+ }
 
   return (
    <>
@@ -34,8 +40,15 @@ function App() {
   {/* <Userlogin/> */}
   {/* <Firestore/> */}
   {/* <Cloudnary/> */}
-  <Useeffect/>
+  {/* <Useeffect/> */}
   {/* <chlid1/> */}
+  {/* <Usecontext/> */}
+  {/* <Chlid1/> */}
+  {/* <Counter/> */}
+  {/* <Usememo/> */}
+  <Usecallback/>
+  
+
    </>
 
       

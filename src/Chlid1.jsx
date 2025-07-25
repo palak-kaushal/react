@@ -1,10 +1,15 @@
 import React from 'react'
-import Child2  from './Child2'
+import Child2 from './Chlid2'
 
-const chlid1 =(props)=> {
+const Child1 = () => {
+  const a = "context data"
+
   return (
-    <div>props.name</div>
+    <div>
+      <h1>Name</h1>
+      <Child2 message = {a}/>
+    </div>
   )
 }
 
-export default chlid1
+export default Child1
