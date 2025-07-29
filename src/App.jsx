@@ -22,11 +22,13 @@
 // import Usememo from'./Usememo'
 // import Usecallback from'./Usecallback'
 // import List from'./List'
-import Object from'./Object'
-
+// import Object from'./Object'
+// import Reducre from'./Reducre'
+// import Abc from './Abc'
+import Demo from './Demo'
 
 function App() {
- const name={
+ const  name ={
   name:"ram",
   age:20,
   gender:"female"
@@ -50,7 +52,10 @@ function App() {
   {/* <Usememo/> */}
   {/* <Usecallback/> */}
   {/* <List/> */}
-  <Object/>
+  {/* <Object/> */}
+  {/* <Reducre/> */}
+  {/* <Abc/> */}
+  <Demo/>
   
 
    </>

@@ -1,0 +1,17 @@
+.btn1{
+    background-color: red;
+    color: aquamarine;
+    font-size: medium;
+
+}
+.btn2{
+    background-color: green;
+    color: rgb(176, 255, 127);
+    font-size: medium;
+
+}
+.btn3{
+    background-color: blue;
+    color: rgb(255, 127, 219);
+    font-size: medium;
+}
