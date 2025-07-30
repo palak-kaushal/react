@@ -25,7 +25,8 @@
 // import Object from'./Object'
 // import Reducre from'./Reducre'
 // import Abc from './Abc'
-import Demo from './Demo'
+// import Demo from './Demo'
+
 
 function App() {
  const  name ={
