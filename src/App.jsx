@@ -1,6 +1,6 @@
 // import Home from "./Home"
 // import Child  from "./Child"
-// import Counter from "./Counter"
+import Counter from "./Counter"
 // import Controlled from "./cONTROLLED.JSX"
 // import {BrowserRouter,Routes,Route} from 'react-router-dom'
 // import About from "./About"
@@ -49,15 +49,15 @@ function App() {
   {/* <chlid1/> */}
   {/* <Usecontext/> */}
   {/* <Chlid1/> */}
-  {/* <Counter/> */}
+  <Counter/>
   {/* <Usememo/> */}
   {/* <Usecallback/> */}
   {/* <List/> */}
   {/* <Object/> */}
   {/* <Reducre/> */}
   {/* <Abc/> */}
-  <Demo/>
-  
+  {/* <Demo/>
+   */}
 
    </>
 
