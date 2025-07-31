@@ -1,6 +1,6 @@
 // import Home from "./Home"
 // import Child  from "./Child"
-import Counter from "./Counter"
+// import Counter from "./Counter"
 // import Controlled from "./cONTROLLED.JSX"
 // import {BrowserRouter,Routes,Route} from 'react-router-dom'
 // import About from "./About"
@@ -26,7 +26,9 @@ import Counter from "./Counter"
 // import Reducre from'./Reducre'
 // import Abc from './Abc'
 // import Demo from './Demo'
-
+// import Video from "./Viedo"
+// import Rplayer from "./Rplayer"
+import Refexample from "./Refexample"
 
 function App() {
  const  name ={
@@ -49,15 +51,17 @@ function App() {
   {/* <chlid1/> */}
   {/* <Usecontext/> */}
   {/* <Chlid1/> */}
-  <Counter/>
+  {/* <Counter/> */}
   {/* <Usememo/> */}
   {/* <Usecallback/> */}
   {/* <List/> */}
   {/* <Object/> */}
   {/* <Reducre/> */}
   {/* <Abc/> */}
-  {/* <Demo/>
-   */}
+  {/* <Demo/>*/}
+  {/* <Video/> */}
+  {/* <Rplayer/> */}
+  <Refexample/>
 
    </>
 
